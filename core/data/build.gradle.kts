@@ -33,5 +33,5 @@ dependencies {
     implementation(libs.okhttp.logging)
 
     implementation(project(":core:domain"))
-    //implementation(project(":core:exception"))
+    implementation(project(":core:exception"))
 }
