@@ -21,3 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "yongniverse"
 include(":app")
+include(":core:data")
+include(":core:domain")
