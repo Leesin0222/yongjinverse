@@ -22,7 +22,6 @@ dependencies {
     compileOnly(libs.android.tools.common)
     compileOnly(libs.kotlin.gradlePlugin)
     compileOnly(libs.ksp.gradlePlugin)
-    compileOnly(libs.android.gradlePlugin)
     compileOnly(libs.hilt.gradlePlugin)
 }
 
@@ -46,6 +45,10 @@ gradlePlugin {
         register("hilt") {
             id = "yongniverse.hilt"
             implementationClass = "HiltConventionPlugin"
+        }
+        register("jvmLibrary") {
+            id = "yongniverse.jvm.library"
+            implementationClass = "JvmLibraryConventionPlugin"
         }
     }
 }

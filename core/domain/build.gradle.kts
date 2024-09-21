@@ -1,8 +1,8 @@
 plugins {
-    alias(libs.plugins.yongniverse.android.library)
-    alias(libs.plugins.yongniverse.hilt)
+    alias(libs.plugins.yongniverse.jvm.library)
 }
 
-android {
-    namespace = "com.yongjincompany.core.domain"
+dependencies {
+    implementation(libs.javax.inject)
+    implementation(libs.kotlinx.coroutines.core)
 }
