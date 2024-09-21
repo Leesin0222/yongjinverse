@@ -4,7 +4,7 @@ plugins {
     `kotlin-dsl`
 }
 
-group = "com.yongjincompany.convention.yongjinverse"
+group = "com.yongjincompany.convention.yongniverse"
 
 java {
     sourceCompatibility = JavaVersion.VERSION_17
@@ -36,16 +36,16 @@ tasks {
 gradlePlugin {
     plugins {
         register("androidApplication") {
-            id = "yongjinverse.android.application"
-            implementationClass = "AndroidApplicationConventionPlugin.kt"
+            id = "yongniverse.android.application"
+            implementationClass = "AndroidApplicationConventionPlugin"
         }
         register("androidLibrary") {
-            id = "yongjinverse.android.library"
+            id = "yongniverse.android.library"
             implementationClass = "AndroidLibraryConventionPlugin"
         }
         register("hilt") {
-            id = "yongjinverse.hilt"
-            implementationClass = "HiltConventionPlugin.kt"
+            id = "yongniverse.hilt"
+            implementationClass = "HiltConventionPlugin"
         }
     }
 }

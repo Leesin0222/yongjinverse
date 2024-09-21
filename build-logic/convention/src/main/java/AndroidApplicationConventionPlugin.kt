@@ -2,7 +2,7 @@ import com.android.build.api.dsl.ApplicationExtension
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.configure
-import com.yongjincompany.convention.yongjinverse.configureKotlinAndroid
+import com.yongjincompany.convention.yongniverse.configureKotlinAndroid
 
 internal class AndroidApplicationConventionPlugin : Plugin<Project> {
     override fun apply(target: Project) {

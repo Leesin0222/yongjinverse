@@ -1,4 +1,4 @@
-package com.yongjincompany.convention.yongjinverse
+package com.yongjincompany.convention.yongniverse
 
 import com.android.build.api.variant.LibraryAndroidComponentsExtension
 import org.gradle.api.Project

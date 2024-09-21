@@ -1,4 +1,4 @@
-package com.yongjincompany.convention.yongjinverse
+package com.yongjincompany.convention.yongniverse
 
 import org.gradle.api.Project
 import org.gradle.api.artifacts.VersionCatalog

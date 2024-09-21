@@ -1,7 +1,7 @@
 [versions]
 androidGradlePlugin = "8.5.1"
 androidxAppCompat = "1.7.0"
-androidTools = "31.5.1"
+androidTools = "31.6.1"
 kotlin = "2.0.0"
 coreKtx = "1.13.1"
 junit = "4.13.2"
@@ -55,6 +55,6 @@ ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
 
-yongjinverse-android-application = { id = "yongjinverse.android.application", version = "unspecified" }
-yongjinverse-android-library = { id = "yongjinverse.android.library", version = "unspecified" }
-yongjinverse-hilt = { id = "yongjinverse.hilt", version = "unspecified" }
+yongniverse-android-application = { id = "yongniverse.android.application", version = "unspecified" }
+yongniverse-android-library = { id = "yongniverse.android.library", version = "unspecified" }
+yongniverse-hilt = { id = "yongniverse.hilt", version = "unspecified" }
