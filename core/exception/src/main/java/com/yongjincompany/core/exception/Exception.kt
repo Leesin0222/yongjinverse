@@ -17,7 +17,8 @@ class TooManyRequestsException : HttpException(code = 429, message = "TooManyReq
 
 class UnauthorizedException : HttpException(code = 401, message = "Unauthorized")
 
-
+class NeedLoginException: RuntimeException()
+class NotFoundTokenException: RuntimeException()
 class NoInternetException : RuntimeException()
 class TimeoutException : RuntimeException()
 class UnknownException : RuntimeException("Unknown")
